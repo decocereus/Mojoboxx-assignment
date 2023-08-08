@@ -1,0 +1,43 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logoSignInContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 3em;
+  margin-top: 0.5em;
+}
+
+.logo {
+  width: 7em;
+  height: 7em;
+}
+
+.signInButtonContainer {
+  background: none;
+  height: 2em;
+  border-radius: 20px;
+  color: rgb(34, 34, 137);
+  border: 1px solid rgb(34, 34, 137);
+  font-style: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonText {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0 0.5em;
+}
+
+.buttonLogo {
+  font-size: 1em;
+  padding-left: 0.5em;
+}

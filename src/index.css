@@ -12,10 +12,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto Slab", serif;
 }
 
 .globalContainer {
-  background: red;
+  background: white;
   width: 400px;
   height: 750px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

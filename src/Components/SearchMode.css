@@ -1,0 +1,38 @@
+.modeLogoTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+  margin: 0;
+  cursor: pointer;
+}
+
+.modeLogo {
+  font-size: 1.7em;
+  font-weight: thin;
+  padding-right: 0.1em;
+}
+.modeText {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  padding-left: 0.1em;
+}
+
+.highlight {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.newItem {
+  position: relative;
+  background: #f77728;
+  top: -0.4em;
+  left: 0.2em;
+  padding: 0.2em;
+  font-size: 0.7em;
+  font-weight: 200;
+  width: 2.5em;
+  height: 1.5em;
+  color: white;
+  border-radius: 5px;
+}

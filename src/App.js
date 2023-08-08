@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import Header from "./Components/Header";
+import Body from "./Components/Body";
+import FooterMenu from "./Components/FooterMenu";
 
 const AppLayout = () => {
   return (
     <div className="globalContainer">
-      <h1>Hello World</h1>
+      <Header />
+      <Body />
+      <FooterMenu />
     </div>
   );
 };

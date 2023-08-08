@@ -1,0 +1,123 @@
+.bodyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchModeBar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5em 0;
+}
+
+.searchFormContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.5em;
+}
+
+.cityLabelTextContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.cityLabel {
+  padding: 1em 1em 0em 1em;
+}
+.cityText {
+  font-size: 1.5em;
+  padding: 0 0.5em 0.7em 0.5em;
+  font-weight: bold;
+}
+
+.checkInOutContainer {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkinContainer,
+.checkoutContainer,
+.travellerContainer {
+  padding: 0 0.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cityLabel,
+.checkinLabel,
+.checkoutLabel,
+.travellerLabel {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.checkinText,
+.checkoutText,
+.travellerText {
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+.checkoutLabel {
+  margin-left: 2.3em;
+}
+.travellerButtonContainer {
+  padding-top: 1.5em;
+}
+
+.buttonContainer {
+  background: #f77728;
+  width: 21em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5em;
+  height: 2.5em;
+  margin-left: 2em;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recentSearchContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.7em;
+}
+
+.lastSearchText {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.searchDates {
+  background: #f0f0f0;
+  display: flex;
+  padding: 0.5em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.from,
+.to {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  padding: 0 0.5em;
+}
